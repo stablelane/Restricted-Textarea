@@ -1,0 +1,48 @@
+html {
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+.container {
+    min-width: 600px;
+    max-width: 710px;
+    width: 80%;
+    height: 40vh;
+    border-radius: 15px;
+    margin: auto;
+    position: relative;
+    
+}
+.limit {
+    color: red;
+    border-color: red;
+}
+.container textarea {
+    border-radius: 15px;
+    height: 20vh;
+    width: 100%;
+    border: 3px solid;
+    font-size: 2em;
+    padding: 1em;
+    overflow: hidden;
+}
+.container textarea:focus {
+    outline: none;
+}
+
+#count {
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
+    right: 10px;
+    bottom: 190px;
+}
