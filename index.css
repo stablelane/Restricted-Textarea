@@ -1,9 +1,11 @@
 html {
     margin: 0;
 }
+
 * {
     box-sizing: border-box;
 }
+
 body {
     display: flex;
     justify-content: center;
@@ -12,6 +14,7 @@ body {
     margin: 0;
     font-family: "Roboto", sans-serif;
 }
+
 .container {
     min-width: 600px;
     max-width: 710px;
@@ -20,12 +23,14 @@ body {
     border-radius: 15px;
     margin: auto;
     position: relative;
-    
+
 }
+
 .limit {
     color: red;
     border-color: red;
 }
+
 .container textarea {
     border-radius: 15px;
     height: 20vh;
@@ -35,6 +40,7 @@ body {
     padding: 1em;
     overflow: hidden;
 }
+
 .container textarea:focus {
     outline: none;
 }

@@ -1,8 +1,9 @@
 const textArea = document.getElementById('text-area')
 
-textArea.addEventListener('keypress',(e)=>{
+textArea.addEventListener('input',(e)=>{
     const words = document.getElementById('text-area').value
-    if(words.length+1 <= 100) {
+    if(words.length <= 99) {
+        console.log(words.length)
         const count = document.getElementById('count').textContent = `${words.length+1}/100`
         limitstyle("remove")
     }
